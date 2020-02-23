@@ -50,16 +50,16 @@ public class test {
         driver.findElement(By.id("Postcode")).sendKeys(code);
         driver.findElement(By.id("Town")).click();
         driver.findElement(By.id("Town")).sendKeys(town);
-        driver.findElement(By.id("Mobile telephone number")).click();
-        driver.findElement(By.id("Mobile telephone number")).sendKeys(mob);
-        driver.findElement(By.id("Username")).click();
-        driver.findElement(By.id("Username")).sendKeys(user);
+        driver.findElement(By.id("MobileNumber")).click();
+        driver.findElement(By.id("MobileNumber")).sendKeys(mob);
+        driver.findElement(By.id("UserName")).click();
+        driver.findElement(By.id("UserName")).sendKeys(user);
         driver.findElement(By.id("Password")).click();
         driver.findElement(By.id("Password")).sendKeys(pass);
-        driver.findElement(By.id("Email address")).click();
-        driver.findElement(By.id("Email address")).sendKeys(mail);
-        driver.findElement(By.id("Confirm email address")).click();
-        driver.findElement(By.id("Confirm email address")).sendKeys(conf);
+        driver.findElement(By.id("Email")).click();
+        driver.findElement(By.id("Email")).sendKeys(mail);
+        driver.findElement(By.id("EmailConfirm")).click();
+        driver.findElement(By.id("EmailConfirm")).sendKeys(conf);
         driver.close();
     }
 
